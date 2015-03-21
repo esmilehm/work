@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+/*ここからスタイルをはじめます*/
+h1,h2,p,div{ margin:0; }
+
+h2{ color:#be8438; }
+/* 追記；p要素でも余白と背景色を付ければ、箱の様に見た目を変えられる */
+#information p, #recommend p{
+	margin-right:2em;
+	margin-left:2em;
+	padding-top:1em;
+	padding-right:2em;
+	padding-bottom:1em;
+	padding-left:2em;
+	background-color:#eee;
+}
+
+div{ margin-bottom:2em; }

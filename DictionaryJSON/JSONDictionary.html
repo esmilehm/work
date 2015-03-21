@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>QuickSearch</title>
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="./js/bootstrap.min.js"></script>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!-- quicksearch用 <script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.1.js"></script> -->
+<!-- JSON用 <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script> -->
+
+<script src="./js/jquery.quicksearch.js"></script><!-- quicksearchの読み込み -->
+<script src="./js/info.js"></script> <!-- JSON -->
+
+</head>
+<body>
+<h1>プロジェクト関連・用語集</h1>
+
+<div class="header">
+<form class="navbar-form" action="#">
+  <input type="text" name="search" value="" id="id_search"  class="form-control" />
+</form>
+</div>
+
+<div class="container">
+<!-- <table class="table_example"> -->
+<table class="table tbl table-striped table-bordered table-hover">
+<!-- <tbody>
+<tr>
+<th></th>
+<td></td>
+</tr>
+</tbody>
+<thead>
+  <tr><th>No</th><th>用語</th><th>解説</th><th>管理コード</th></tr>
+</thead> -->
+<tbody>
+  <tr>
+  	<td>ナンバー</td>
+  	<td>タイトル</td>
+  	<td>コンテンツ</td>
+  	<td>URL</td>
+ </tr>
+</tbody>
+
+</table>
+
+</div>
+
+<div class="footer">
+<!-- 自分で加えた場所 start -->
+<div>
+<button class="btn btn-default btn-sm" type="button" onclick="window.close();">閉じる</button>
+</div>
+<!-- 自分で加えた場所  end  -->
+</div>
+</body>
+</html>
